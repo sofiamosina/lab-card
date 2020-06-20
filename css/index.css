@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+article {
+  width: 560px;
+  height: 890px;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+p {
+  color: #576172;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.property-photo img {
+  width: 100%;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.property-desc {
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.property-name {
+  display: flex;
+}
+
+.property-name h1 {
+  text-transform: uppercase;
+  color: #576172;
+  font-size: 1.7em;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.property-price {
+  color: #262b37;
+  font-size: 57px;
+  line-height: 18px;
+}
+
+.rooms-desc {
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 55px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.room-icon {
+  width: 40px;
+}
+
+.number-of-rooms {
+  color: #262b37;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.realtor-info {
+  width: 100%;
+  height: 160px;
+  background-color: #f8fafc;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.realtor-info h2 {
+  text-transform: uppercase;
+  color: #576172;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.realtor-name {
+  color: #262b37;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.learn-more {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(20, 109, 54);
+  border: none;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.7em;
+  font-weight: 500;
+  outline: none;
+}
+.learn-more:hover {
+  background-color: rgb(125, 125, 190);
+}
